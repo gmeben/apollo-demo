@@ -10,8 +10,7 @@ import VueApollo from 'vue-apollo'
 Vue.use(VueApollo)
 
 const defaultClient = new ApolloClient({
-  uri: 'http://localhost:4000/graphql'
-
+  uri: 'http://localhost:8080/graphql'
 })
 
 const apolloProvider =  new VueApollo({ defaultClient })
